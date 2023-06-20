@@ -1,1 +1,3 @@
-# Donor-NGO
+# Donor-for-NGOs
+
+added .gitignore

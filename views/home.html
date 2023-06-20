@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+ 
+  <!-- Google Fonts -->
+  
+  <!-- MDB -->
+  
+  <link rel="stylesheet" href="../assets/css/style.css">
+<head>
+  <title>Donation Page</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Donate Clothes and Unused Items</h1>
+    <p>Make a difference by donating your clothes and unused items to those in need.</p>
+  </header>
+  
+  <main>
+    <div class="donation-form">
+      <h2>Donation Details</h2>
+      
+      <form action="/donate" method="POST" onsubmit="submitForm(event)">
+        <div class="form-group">
+          <label for="itemType">Item Type:</label>
+          <select name="itemType" id="itemType">
+            <option value="clothes">Clothes</option>
+            <option value="unusedItems">Unused Items</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="itemName">Item Name:</label>
+          <input type="text" name="itemName" id="itemName" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="description">Description:</label>
+          <textarea name="description" id="description" rows="4" required></textarea>
+        </div>
+        
+        <div class="form-group">
+          <label for="contactName">Contact Name:</label>
+          <input type="text" name="contactName" id="contactName" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="phone">Phone:</label>
+          <input type="tel" name="phone" id="phone" required>
+        </div>
+        
+        <div class="form-group">
+          <input type="submit" value="Donate" class="btn-donate">
+        </div>
+      </form>
+    </div>
+    
+    <div class="donation-info">
+      <h2>Why Donate?</h2>
+      <p>By donating your clothes and unused items, you can:</p>
+      <ul>
+        <li>Help those in need</li>
+        <li>Reduce waste and promote sustainability</li>
+        <li>Create a positive impact in your community</li>
+      </ul>
+    </div>
+  </main>
+  
+  <footer>
+    <p>© 2023 Your Donor Website. All rights reserved.</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
