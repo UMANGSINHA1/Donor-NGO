@@ -1,4 +1,4 @@
-# NGO-Donor
+# HelpingHands Connect
 
 This is a README page for a donation website that facilitates the process of donating clothes and other unused items to NGOs, which can then distribute them to those in need. The website is built using a tech stack comprising HTML, CSS, Bootstrap, JavaScript, Nodejs, Expressjs, Mongoose, and Authentication for enhanced security.
 
